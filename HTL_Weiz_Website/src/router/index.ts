@@ -19,6 +19,7 @@ import TeamView from '../views/TeamView.vue';
 import SearchView from '../views/SearchView.vue';
 import UtView from '../views/UtView.vue';
 import WiView from '../views/WiView.vue';
+import EmilyView from '../views/EmilyVIew.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -122,6 +123,11 @@ const router = createRouter({
       path: '/search',
       name: 'search',
       component: SearchView,
+    },
+    {
+      path: '/e2mily',
+      name: 'e2mily',
+      component: EmilyView,
     }
   ]
 })
